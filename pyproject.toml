@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-context-window-lost-in-middle-reorderer-skill"
+version = "1.0.0"
+description = "Context window attention optimizer reordering retrieved documents to place critical evidence at prompt boundaries, mitigating lost-in-the-middle degradation."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "GenPark AI", email = "engineering@genpark.ai"}]
+keywords = ["ai-agent", "mcp", "memory", "rag", "zero-dependency"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://genpark.ai/mcp"
+Repository = "https://github.com/alphaparkinc/genpark-context-window-lost-in-middle-reorderer-skill"
