@@ -1,0 +1,30 @@
+{
+  "name": "genpark-context-window-lost-in-middle-reorderer-skill",
+  "version": "1.0.0",
+  "description": "Context window attention optimizer reordering retrieved documents to place critical evidence at prompt boundaries, mitigating lost-in-the-middle degradation.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "context-window",
+    "lost-in-the-middle",
+    "prompt-engineering",
+    "attention-optimization",
+    "rag-reorder",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "reorder",
+      "description": "Reorder documents alternating highest scores to prompt boundaries."
+    },
+    {
+      "name": "format_prompt_context",
+      "description": "Render reordered documents as clean structured prompt context."
+    },
+    {
+      "name": "run_benchmark_reorderer",
+      "description": "Execute lost-in-the-middle attention reorderer benchmark."
+    }
+  ]
+}
